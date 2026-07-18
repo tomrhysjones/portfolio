@@ -2,7 +2,7 @@ import { ArrowRight, Download, MapPin } from 'lucide-react';
 import { motion, useReducedMotion } from 'framer-motion';
 import { Github, Linkedin } from '../components/BrandIcons';
 import { siteConfig } from '../data/siteConfig';
-import { HeroVisual } from '../components/HeroVisual';
+import { HeroPhoto } from '../components/HeroPhoto';
 
 export function Hero() {
   const reduce = useReducedMotion();
@@ -109,7 +109,7 @@ export function Hero() {
           </div>
 
           <div className="relative">
-            <HeroVisual />
+            <HeroPhoto />
           </div>
         </div>
       </div>

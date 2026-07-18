@@ -170,7 +170,7 @@ const svg = `<?xml version="1.0" encoding="UTF-8"?>
   <text x="1120" y="600" text-anchor="end"
         font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
         font-size="13" fill="#8F8676">
-    London / Bath · United Kingdom
+    London · United Kingdom
   </text>
 </svg>`;
 

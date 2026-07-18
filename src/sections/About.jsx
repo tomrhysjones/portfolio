@@ -30,31 +30,7 @@ export function About() {
         />
 
         <div className="mt-12 grid gap-12 lg:grid-cols-[1.15fr_1fr] lg:gap-16">
-          <div className="space-y-6 text-base sm:text-lg leading-relaxed text-parchment-200/90">
-            <MotionInView as="div" className="flex items-center gap-5">
-              <div className="relative flex-none">
-                <img
-                  src="/headshot.png"
-                  alt="Portrait of Tom Rhys Jones"
-                  loading="lazy"
-                  decoding="async"
-                  className="h-20 w-20 sm:h-24 sm:w-24 rounded-full border border-white/10 object-cover shadow-soft"
-                />
-                <span
-                  aria-hidden="true"
-                  className="absolute bottom-1 right-1 h-3 w-3 rounded-full bg-emerald-400 shadow-[0_0_0_3px_#0A0F1A]"
-                />
-              </div>
-              <div>
-                <p className="font-display text-lg text-parchment-50">
-                  Tom Rhys Jones
-                </p>
-                <p className="text-sm text-parchment-300">
-                  Full-Stack Software Engineer · London, UK
-                </p>
-              </div>
-            </MotionInView>
-
+          <div className="space-y-5 text-base sm:text-lg leading-relaxed text-parchment-200/90">
             <MotionInView as="p">
               I am a full-stack software engineer currently studying{' '}
               <span className="text-parchment-50">
