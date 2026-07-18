@@ -9,10 +9,10 @@ placeholder card if a file is missing.
 Add each image using these exact filenames (referenced from
 `src/data/projects.js`):
 
-- `setlistlab.png`
-- `record-shelf.png`
-- `giglog.png`
-- `ocean-match.png`
+- `setlistlab.jpg`
+- `record-shelf.jpg`
+- `giglog.jpg`
+- `ocean-match.jpg`
 
 ## Recommended dimensions
 

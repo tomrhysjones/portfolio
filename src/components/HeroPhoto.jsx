@@ -5,7 +5,7 @@ import { motion, useReducedMotion } from 'framer-motion';
  * footprint the code panel originally had, with a soft accent glow
  * behind and a caption strip along the bottom.
  *
- * The photo lives at public/headshot.png. Replace that file (or run
+ * The photo lives at public/headshot.jpg. Replace that file (or run
  * `npm run gen:headshot`) and this component picks up the new image
  * automatically.
  */
@@ -27,7 +27,7 @@ export function HeroPhoto() {
         className="card-surface relative overflow-hidden aspect-square"
       >
         <img
-          src="/headshot.png"
+          src="/headshot.jpg"
           alt="Portrait of Tom Rhys Jones"
           loading="eager"
           decoding="async"

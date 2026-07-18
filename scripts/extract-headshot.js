@@ -10,11 +10,11 @@ import sharp from 'sharp';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const src = '/Users/tomjones/Downloads/LinkedIn Image.png';
-const out = path.resolve(__dirname, '..', 'public', 'headshot.png');
+const out = path.resolve(__dirname, '..', 'public', 'headshot.jpg');
 
 await sharp(src)
   .resize({ width: 800, height: 800, fit: 'cover', kernel: 'lanczos3' })
-  .png({ compressionLevel: 9 })
+  .jpeg({ quality: 85, mozjpeg: true, progressive: true })
   .toFile(out);
 
 console.log(`✔ Wrote ${path.relative(process.cwd(), out)}`);

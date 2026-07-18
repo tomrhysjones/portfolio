@@ -16,7 +16,7 @@ export const projects = [
       'EJS',
       'CSS',
     ],
-    image: '/project-images/giglog.png',
+    image: '/project-images/giglog.jpg',
     imageAlt:
       'GigLog dashboard showing a chronological list of past live music gigs with venue, city and date.',
     links: {
@@ -41,7 +41,7 @@ export const projects = [
       'bcrypt',
       'Context API',
     ],
-    image: '/project-images/setlistlab.png',
+    image: '/project-images/setlistlab.jpg',
     imageAlt:
       'SetlistLab interface showing songs and reusable setlists organised for live performance.',
     links: {
@@ -58,7 +58,7 @@ export const projects = [
     description:
       'A full-stack Django CRUD web application for cataloguing a personal vinyl record collection, deployed on Heroku with PostgreSQL. MVT pattern with a User → Record one-to-many relationship, Django auth with hashed passwords and login-protected views, and full record CRUD with form validation.',
     technologies: ['Python', 'Django', 'PostgreSQL', 'Heroku', 'HTML5', 'CSS3'],
-    image: '/project-images/record-shelf.png',
+    image: '/project-images/record-shelf.jpg',
     imageAlt:
       'Record Shelf application displaying a personal vinyl record collection with ratings and reviews.',
     links: {
@@ -74,7 +74,7 @@ export const projects = [
     description:
       'A responsive browser-based marine-life memory-matching game deployed on GitHub Pages. All game logic written from scratch in vanilla JavaScript — grid generation, tile shuffling, match detection and state handling — with three difficulty levels, a countdown timer and a mismatch limit.',
     technologies: ['HTML5', 'CSS3', 'JavaScript (ES6)', 'CSS Grid', 'Flexbox'],
-    image: '/project-images/ocean-match.png',
+    image: '/project-images/ocean-match.jpg',
     imageAlt:
       'Ocean Match memory game interface with a grid of ocean creature cards.',
     links: {

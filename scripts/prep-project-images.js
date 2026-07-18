@@ -26,25 +26,25 @@ const INK_950 = { r: 10, g: 15, b: 26 }; // matches tailwind.config.js ink.950
 const SOURCES = [
   {
     src: '/Users/tomjones/Desktop/Unit 2 Coursework GA/giglog/screenshots/home.png',
-    dest: 'giglog.png',
+    dest: 'giglog.jpg',
     fit: 'cover',
     position: 'top',
   },
   {
     src: '/Users/tomjones/Desktop/All-Folders/GA/unit3project/setlistlab/frontend/docs/Dashboard UI.png',
-    dest: 'setlistlab.png',
+    dest: 'setlistlab.jpg',
     fit: 'cover',
     position: 'top',
   },
   {
     src: '/Users/tomjones/Library/Application Support/Claude/local-agent-mode-sessions/c91b4f1f-c9f9-498f-ba57-b07d5ee848a5/e0a1da99-a6d7-4580-9acf-49649fe4b80d/local_7e1f98b2-69b6-4fdf-a8a5-044cdfb5743a/outputs/record-shelf-project/record-shelf/docs/landing.png',
-    dest: 'record-shelf.png',
+    dest: 'record-shelf.jpg',
     fit: 'cover',
     position: 'top',
   },
   {
     src: '/Users/tomjones/Desktop/All-Folders/GA/ocean-match/assets/oceanmatch.png',
-    dest: 'ocean-match.png',
+    dest: 'ocean-match.jpg',
     fit: 'contain',
     background: INK_950,
   },
@@ -74,7 +74,7 @@ for (const s of SOURCES) {
   await sharp(s.src)
     .resize(resizeOpts)
     .flatten({ background: s.background || INK_950 })
-    .png({ compressionLevel: 9 })
+    .jpeg({ quality: 82, mozjpeg: true, progressive: true })
     .toFile(outPath);
 
   console.log(`✔ Wrote ${path.relative(process.cwd(), outPath)} (${s.fit})`);
