@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 110">
+  <!-- Dark tile background so the mark is visible in browser tabs -->
+  <rect width="100" height="110" rx="14" fill="#0A0F1A"/>
+
+  <!-- Back frame: shifted up-right -->
+  <rect x="14" y="4" width="80" height="98" rx="4"
+        fill="none" stroke="#8FB0F0" stroke-opacity="0.55" stroke-width="2"/>
+  <!-- Front frame: shifted down-left -->
+  <rect x="4" y="10" width="80" height="98" rx="4"
+        fill="none" stroke="#8FB0F0" stroke-opacity="0.95" stroke-width="2"/>
+
+  <!-- Single-row TRJ monogram -->
+  <text x="49" y="74" text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-weight="500" font-size="60"
+        letter-spacing="-2"
+        fill="#F4F1EA">TRJ</text>
+</svg>
