@@ -165,7 +165,7 @@ const svg = `<?xml version="1.0" encoding="UTF-8"?>
   <text x="80" y="600"
         font-family="'JetBrains Mono', 'Menlo', ui-monospace, monospace"
         font-size="13" fill="#8F8676" letter-spacing="1">
-    tomrhysjones.dev
+    portfolio-olive-mu-34.vercel.app
   </text>
   <text x="1120" y="600" text-anchor="end"
         font-family="Inter, 'Helvetica Neue', Arial, sans-serif"

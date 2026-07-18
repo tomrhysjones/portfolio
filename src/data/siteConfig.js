@@ -27,6 +27,6 @@ export const siteConfig = {
     title: 'Tom Rhys Jones | Full-Stack Software Engineer',
     description:
       'Full-stack software engineer building responsive, user-focused applications with React, Node.js, Python, Django, MongoDB and PostgreSQL.',
-    url: 'https://tomrhysjones.dev',
+    url: 'https://portfolio-olive-mu-34.vercel.app',
   },
 };
