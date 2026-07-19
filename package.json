@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "gen:og": "node scripts/gen-og-image.js",
     "gen:headshot": "node scripts/extract-headshot.js",
-    "gen:projects": "node scripts/prep-project-images.js"
+    "gen:projects": "node scripts/prep-project-images.js",
+    "recolor:j": "node scripts/recolor-logo-j.js"
   },
   "dependencies": {
     "framer-motion": "^12.42.2",
